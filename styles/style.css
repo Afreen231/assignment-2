@@ -49,6 +49,63 @@ nav {
     margin-top: 95px;
 }
 /* header styles ends here */
+/* top section starts from here */
+.top-line{
+    font-size:52px;
+    font-weight: 700px;
+    margin-right: 120px;
+    position: relative;
+    left: 120px;
+}
+.start-section{
+    display: flex;
+}
+.blogs{
+   padding-right:133px;
+   font-weight: 400;
+   position: absolute;
+   left: 120px;
+   right: 600px;
+   top: 370px;   
+}
+.prebook{
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+    border-radius: 41px;
+    padding: 10px 24px;
+    position: absolute;
+    width: 196px;
+    height: 44px;
+    left: 120px;
+    top: 475px; 
+    font-size: 16px;
+}
+.prebook .fas{
+    margin-left: 8px;
+    color: white;
+}
+.images{
+    background-image: url(images/Circle\ design.svg);
+    margin-right: 120px;
+}
+.images:hover{
+    transform:scale(1.2);
+    transition: transform 2s ease-in-out;
+}
+/* top section ends here */
+/* logo section starts from here */
+.logos{
+    display: flex;
+    justify-content: space-between;
+    border-top:1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin: 120px 100px;
+    padding-top: 21px;
+    padding-bottom: 48px;
+}
+/* logo section ends here */
+
 
 /* footer style starts from here */
 .footer{
