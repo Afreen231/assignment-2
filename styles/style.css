@@ -1,0 +1,79 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Playfair+Display:wght@800&family=Poppins:wght@200;300;500;600;700&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&family=Yellowtail&family=Yeseva+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@300&family=Playfair+Display:wght@800&family=Poppins:wght@200;300;500;600;700&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&family=Yellowtail&family=Yeseva+One&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+    margin: 0;
+
+}
+/* header style starts from here */
+.headline{
+    margin-top: 60px;
+}
+.header{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    
+}
+.anchor a{
+    padding-left: 34px;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 100px;
+    
+}
+.menu{
+    position: relative;
+    top: 88px;
+    right: 50px;
+    font-size: 20px;
+}
+.anchor{
+    margin-top: 85px;
+}
+#cart{
+    padding-left: 34px;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    margin-top: 95px;
+}
+/* header styles ends here */
+
+/* footer style starts from here */
+.footer{
+    background-color: #0b0b1d;
+    color: white;
+    height: 150px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 200px;
+}
+.footer-blog{
+    font-size: 14px;
+}
+.footer-icon{
+    margin-top: 20px;
+}
+.footer-icon a{
+    font-size: 18px;
+    background-color: #222246;
+    color: white;
+    border-radius:45%;
+    padding: 5px 10px;
+    margin-top: 5px;
+    height: 25px;
+    width: 25px;
+}
+/* footer style ends here */
