@@ -105,7 +105,75 @@ nav {
     padding-bottom: 48px;
 }
 /* logo section ends here */
+/* Popular collection style */
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 140px;
+    margin-right: 150px;
+}
+.Popular{
+    font-size: 28px;
+    text-align: center;
+}
+.product{
+    background-color: white;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
 
+}
+.product img{
+    height: 250px;
+    width: 300px;
+}
+.product img:hover{
+    height: 300px;
+    width: 350px;
+}
+.product-details{
+    width: 220px;
+    padding-top: 10px;
+    font-size: 16px;
+    color:#787885;
+    ;
+}
+.product-name{
+    font-weight: 500px;
+    font-size: 28px;
+}
+.price{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 100px;
+    
+}
+.rating a{
+    color:#FB8200;
+    font-size: 11px;
+    
+}
+.rate{
+    padding-left: 5px;
+}
+
+.product-info{
+    font-size: 10px;
+}
+/* popular collection styles ends here */
+/* see more style */
+.see-more{
+    color:#E02C6D;
+    position: relative;
+    left: 1025px;
+    
+}
+.see-more .fas{
+    padding-left: 10px;
+    color: #E02C6D;
+}
+/* see more styles ends here */
 
 /* footer style starts from here */
 .footer{
